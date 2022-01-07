@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+// import HeroImg from '../assets/images/hero.png';
 import Button from './Button';
 import PictureText from './PictureText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
+import HeroImg from '../assets/images/me.jpg';
 
 const HeroStyles = styled.div`
   .hero {
@@ -168,20 +169,28 @@ export default function HeroSection() {
             <div className="hero__social__text">
               <ul>
                 <li>
-                  <a href="/facebook.com" target="_blank" rel="norefferer">
-                    FB
-                  </a>
-                </li>
-                <li>
-                  <a href="instagram.com" target="_blank" rel="norefferer">
-                    IG
-                  </a>
-                </li>
-                <li>
-                  <a href="linkedin.com" target="_blank" rel="norefferer">
+                  <a
+                    href="https://www.linkedin.com/in/sterlyn-tang/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     LI
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://github.com/sterlyn-t"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GH
+                  </a>
+                </li>
+                {/* <li>
+                  <a href="linkedin.com" target="_blank" rel="noreferrer">
+                    LI
+                  </a>
+                </li> */}
               </ul>
             </div>
           </div>
