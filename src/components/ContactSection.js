@@ -25,7 +25,7 @@ const ContactSectionStyles = styled.div`
     display: flex;
     gap: 5rem;
     margin-top: 7rem;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
   }
   .right {
@@ -55,7 +55,9 @@ export default function ContactSection() {
       <div className="container">
         <SectionTitle heading="Contact" subheading="Get in touch" />
         <div className="contactSection__wrapper">
-          <div className="left">{/* <p>testing left side</p> */}</div>
+          {/* <div className="left">
+            <p>testing left side</p>
+          </div> */}
           <div className="right">
             <ContactForm />
           </div>

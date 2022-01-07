@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Button from '../components/Button';
 import PictureText from '../components/PictureText';
-import AboutImg from '../assets/images/about-page-img.png';
 import AboutInfoItem from '../components/AboutInfoItem';
+import AboutMeImg from '../assets/images/me.jpg';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -94,10 +94,10 @@ export default function About() {
                 Inc. and Teranet Inc.
               </PictureText>
             </div>
-            <Button btnLabel="Download CV" btnLink="#" />
+            <Button btnLabel="Download Resume" btnLink="#" />
           </div>
           <div className="right">
-            <img src={AboutImg} alt="" />
+            <img src={AboutMeImg} alt="" />
           </div>
         </div>
         <div className="about__info__items">
