@@ -90,8 +90,9 @@ export default function About() {
                 <br />
                 <br />
                 This new found interest led me to purse Electrical Engineering
-                at the University of Waterloo. I had co-op experiences at BTNX
-                Inc. and Teranet Inc.
+                at the University of Waterloo where I had the opportunity to
+                gain professional software dev experience through my co-ops at
+                BTNX Inc. and Teranet Inc.
               </PictureText>
             </div>
             <Button btnLabel="Download Resume" btnLink="#" />
