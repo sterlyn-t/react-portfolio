@@ -66,6 +66,7 @@ export default function Projects() {
               img={item.img}
               hasMoreInfo={item.hasMoreInfo}
               moreInfo={item.moreInfo}
+              companyUrl={item.companyUrl}
             />
           ))}
         </div>

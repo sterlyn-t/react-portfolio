@@ -58,6 +58,7 @@ export default function ProjectItem({
   description = 'Experience Description',
   hasMoreInfo = false,
   moreInfo,
+  companyUrl,
 }) {
   const [showModal, setShowModal] = useState(false);
 
@@ -69,7 +70,11 @@ export default function ProjectItem({
 
   return (
     <ExperienceItemStyles>
-      <Link to="/experience" className="projectItem__img">
+      <Link
+        to={{ pathname: companyUrl }}
+        target="_blank"
+        className="projectItem__img"
+      >
         <img src={img} alt="project" />
       </Link>
       <div className="projectItem__info">

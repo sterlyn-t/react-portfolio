@@ -12,6 +12,7 @@ const experiences = [
     hasMoreInfo: false,
     moreInfo:
       'aoife safesf efesf esfesfe sefesaf esfefe sefesfeaf esfesaf esfesfes esfesf',
+    companyUrl: 'https://www.teranet.ca/',
   },
   {
     id: uuidv4(),
@@ -22,6 +23,7 @@ const experiences = [
     hasMoreInfo: false,
     moreInfo:
       'aoife safesf efesf esfesfe sefesaf esfefe sefesfeaf esfesaf esfesfes esfesf',
+    companyUrl: 'https://www.btnx.com/',
   },
 ];
 
