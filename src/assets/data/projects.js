@@ -4,6 +4,7 @@ import MineSweeperImg from '../images/minesweeper.png';
 import AnonynousBlogImg from '../images/anonymous-blog.png';
 import ChatAppImg from '../images/chat-app.jpg';
 import PersonalPortfolioImg from '../images/personal-portfolio-2.jpg';
+import MovieAppImg from '../images/movie-app.jpg';
 
 const projects = [
   {
@@ -55,6 +56,15 @@ const projects = [
     desc:
       'Created a MineSweeper clone in C++ using 2D arrays and Object-Oriented Programming principles. The user could select 3 different difficulties which vaired the size of the board and the number of bombs present.',
     img: MineSweeperImg,
+  },
+  {
+    id: uuidv4(),
+    name: 'Movie Search App',
+    desc:
+      'In an attempt to learn about APIs, I created a simple movie search application using the TMDB API. The user is presented with the currently trending movies along with their respective ratings and descriptions.',
+    img: MovieAppImg,
+    githubUrl: 'https://github.com/sterlyn-t/movie-search-app',
+    liveDemoUrl: 'https://sterlyn-t.github.io/movie-search-app/',
   },
 ];
 

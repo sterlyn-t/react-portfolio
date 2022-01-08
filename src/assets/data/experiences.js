@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import BtnxInc from '../images/btnx.png';
+import BtnxInc from '../images/BTNX-Inc.png';
 import TeranetInc from '../images/teranet.png';
 
 const experiences = [

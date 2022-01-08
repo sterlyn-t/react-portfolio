@@ -69,7 +69,7 @@ export default function ProjectItem({
 
   return (
     <ExperienceItemStyles>
-      <Link to="/projects" className="projectItem__img">
+      <Link to="/experience" className="projectItem__img">
         <img src={img} alt="project" />
       </Link>
       <div className="projectItem__info">
