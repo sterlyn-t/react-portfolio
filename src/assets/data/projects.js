@@ -1,9 +1,9 @@
 import { v4 as uuidv4 } from 'uuid';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
 import CoinTrackerImg from '../images/cointracker.jpg';
 import MineSweeperImg from '../images/minesweeper.png';
 import AnonynousBlogImg from '../images/anonymous-blog.png';
+import ChatAppImg from '../images/chat-app.jpg';
+import PersonalPortfolioImg from '../images/personal-portfolio-2.jpg';
 
 const projects = [
   {
@@ -11,7 +11,7 @@ const projects = [
     name: "Let's Chat",
     desc:
       'A full-stack MERN chat application which allows users to communicate through both one-on-one chats and group chats. Real-time messaging and notifcations was achieved by using Socket.IO.',
-    img: UTrackerImg,
+    img: ChatAppImg,
     githubUrl: 'https://github.com/sterlyn-t/lets-chat/tree/master/lets-chat',
     liveDemoUrl: 'test',
   },
@@ -19,10 +19,10 @@ const projects = [
     id: uuidv4(),
     name: 'Personal Portfolio',
     desc:
-      'A responsive portfolio webiste created to showcase my projects and experiences. It was created using React.js together with styled-components and it was deployed using Netlify.',
-    img: GreenCtgImg,
-    githubUrl: null,
-    liveDemoUrl: 'test',
+      'A responsive portfolio webiste created to showcase my projects and experiences. It was created using styled-components and React.js, and it is deployed on Netlify with CI/CD.',
+    img: PersonalPortfolioImg,
+    githubUrl: 'https://github.com/sterlyn-t/react-portfolio',
+    liveDemoUrl: 'https://sterlyns-portfolio.netlify.app/',
   },
   {
     id: uuidv4(),

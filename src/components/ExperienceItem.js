@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import projectImg from '../assets/images/projectImg.png';
+import ExperienceModal from './ExperienceModal';
 
 const ExperienceItemStyles = styled.div`
   .projectItem__img {
@@ -55,8 +56,17 @@ export default function ProjectItem({
   img = projectImg,
   title = 'Experience Name',
   description = 'Experience Description',
-  moreInfo = false,
+  hasMoreInfo = false,
+  moreInfo,
 }) {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = (e) => {
+    e.preventDefault();
+    setShowModal(!showModal);
+    console.log('opening modal');
+  };
+
   return (
     <ExperienceItemStyles>
       <Link to="/projects" className="projectItem__img">
@@ -67,18 +77,25 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__description">{description}</p>
-        {moreInfo === false ? (
+        {hasMoreInfo === false ? (
           <></>
         ) : (
           <div className="projectItem__button__container">
             <a
-              href="/test.com"
+              href="/"
               className="projectItem__button"
               target="_blank"
               rel="noreferrer"
+              onClick={toggleModal}
             >
               View More Info
             </a>
+            <ExperienceModal
+              showModal={showModal}
+              setShowModal={setShowModal}
+              title={title}
+              moreInfo={moreInfo}
+            />
           </div>
         )}
       </div>

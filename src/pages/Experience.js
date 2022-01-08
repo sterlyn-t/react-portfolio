@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-// import { MdSearch } from 'react-icons/md';
 import SectionTitle from '../components/SectionTitle';
 import ExperienceItem from '../components/ExperienceItem';
 import ExperienceInfo from '../assets/data/experiences';
@@ -46,24 +45,7 @@ const ProjectsStyles = styled.div`
 
 export default function Projects() {
   const [experienceData, setExperienceData] = useState(ExperienceInfo);
-  // const [userSearch, setUserSearch] = useState('');
 
-  // useEffect(() => {
-  //   if (userSearch === '') return;
-  //   setProjectData(() =>
-  //     ExperienceInfo.filter((item) =>
-  //       item.name.toLowerCase().match(userSearch.toLowerCase())
-  //     )
-  //   );
-  // }, [userSearch]);
-
-  // const handleChange = (e) => {
-  //   e.preventDefault();
-  //   setUserSearch(e.target.value);
-  //   if (!e.target.value.length > 0) {
-  //     setProjectData(ExperienceInfo);
-  //   }
-  // };
   useEffect(() => {
     setExperienceData(ExperienceInfo);
   }, []);
@@ -75,17 +57,6 @@ export default function Projects() {
           heading="Experience"
           subheading="some of my recent experiences"
         />
-        {/* <div className="projects__searchBar">
-          <form>
-            <input
-              type="text"
-              value={userSearch}
-              onChange={handleChange}
-              placeholder="Project Name"
-            />
-            <MdSearch className="searchIcon" />
-          </form>
-        </div> */}
         <div className="projects__allItems">
           {experienceData.map((item) => (
             <ExperienceItem
@@ -93,6 +64,7 @@ export default function Projects() {
               title={item.name}
               description={item.desc}
               img={item.img}
+              hasMoreInfo={item.hasMoreInfo}
               moreInfo={item.moreInfo}
             />
           ))}
