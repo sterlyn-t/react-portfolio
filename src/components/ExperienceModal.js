@@ -31,13 +31,6 @@ const ModalWrapper = styled.div`
   border-radius: 10px;
 `;
 
-const ModalImg = styled.img`
-  width: 100%;
-  height: 100%;
-  border-radius: 10px 0 0 10px;
-  background: #000;
-`;
-
 const ModalContent = styled.div`
   display: flex;
   flex-direction: column;
