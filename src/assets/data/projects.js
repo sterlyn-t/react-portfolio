@@ -14,7 +14,7 @@ const projects = [
       'A full-stack MERN chat application which allows users to communicate through both one-on-one chats and group chats. Real-time messaging and notifcations was achieved by using Socket.IO.',
     img: ChatAppImg,
     githubUrl: 'https://github.com/sterlyn-t/lets-chat/tree/master/lets-chat',
-    liveDemoUrl: 'test',
+    liveDemoUrl: 'https://mern-lets-chat.herokuapp.com/',
   },
   {
     id: uuidv4(),
