@@ -5,6 +5,7 @@ import AnonynousBlogImg from '../images/anonymous-blog.png';
 import ChatAppImg from '../images/chat-app.jpg';
 import PersonalPortfolioImg from '../images/personal-portfolio-2.jpg';
 import MovieAppImg from '../images/movie-app.jpg';
+import WordleImg from '../images/infinite-wordle.png';
 
 const projects = [
   {
@@ -33,6 +34,14 @@ const projects = [
     img: CoinTrackerImg,
     githubUrl: 'https://github.com/sterlyn-t/crypto-tracker',
     liveDemoUrl: 'https://crypto-tracker-netlify.netlify.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Infinite Wordle Clone',
+    desc:
+      'A clone of the popular Wordle game which allows for continuous play built using React.js and React Hooks.',
+    img: WordleImg,
+    githubUrl: 'https://github.com/sterlyn-t/infinite-wordle/tree/master',
   },
   {
     id: uuidv4(),
