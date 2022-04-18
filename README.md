@@ -1,5 +1,3 @@
 # React Portfolio website
 
-Designed by - [shaif Arfan](http://github.com/shaifarfan) | [web cifar](http://webcifar.com)
-
-![](./ReadMeImages/ReadMeBanner.png)
+Used React.js to create a portfolio app to showcase my experiences and projects. Utilized styled-components and media-queries to ensure that the app was responsive on a wide range of devices. Deployed using netlify.
