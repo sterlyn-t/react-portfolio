@@ -28,6 +28,7 @@ const ProjectItemStyles = styled.div`
     font-size: 1.6rem;
     font-family: 'RobotoMono Regular';
     margin-top: 1rem;
+    height: 160px;
   }
   .projectItem__button {
     margin-top: 2rem;
