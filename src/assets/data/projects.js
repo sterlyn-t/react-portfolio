@@ -1,11 +1,12 @@
 import { v4 as uuidv4 } from 'uuid';
 import CoinTrackerImg from '../images/cointracker.jpg';
-import MineSweeperImg from '../images/minesweeper.png';
 import AnonynousBlogImg from '../images/anonymous-blog.png';
 import ChatAppImg from '../images/chat-app.jpg';
 import PersonalPortfolioImg from '../images/personal-portfolio-2.jpg';
-import MovieAppImg from '../images/movie-app.jpg';
 import WordleImg from '../images/infinite-wordle.png';
+// Removed projects
+// import MineSweeperImg from '../images/minesweeper.png';
+// import MovieAppImg from '../images/movie-app.jpg';
 
 const projects = [
   {
