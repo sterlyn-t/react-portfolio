@@ -1,8 +1,19 @@
 import { v4 as uuidv4 } from 'uuid';
 import BtnxInc from '../images/BTNX-Inc.png';
 import TeranetInc from '../images/teranet.png';
+import ResQ from '../images/ResQ.jpg';
 
 const experiences = [
+  {
+    id: uuidv4(),
+    name: 'Fullstack Engineer @ ResQ.',
+    desc: 'Coming soon...',
+    img: ResQ,
+    hasMoreInfo: false,
+    moreInfo:
+      'aoife safesf efesf esfesfe sefesaf esfefe sefesfeaf esfesaf esfesfes esfesf',
+    companyUrl: 'https://www.btnx.com/',
+  },
   {
     id: uuidv4(),
     name: 'Software Developer @ Teranet Inc.',
