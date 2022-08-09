@@ -83,16 +83,13 @@ export default function About() {
             <h2 className="about__heading">A software developer</h2>
             <div className="about__info">
               <PictureText>
-                I was first introduced to coding as part of my Actuarial Science
-                degree at the University of the West Indies. I was exposed to
-                the ins and outs of C++ and I developed a deep interest for
-                software development and problem solving.
+                I love working on side projects and I am always actively trying
+                to expand my knowledge and problem-solving skills.
                 <br />
                 <br />
-                This new found interest led me to purse Electrical Engineering
-                at the University of Waterloo where I had the opportunity to
-                gain professional software dev experience through my co-ops at
-                BTNX Inc. and Teranet Inc.
+                My past co-ops allowed me to gain a vast array of experiences
+                having worked with MVC, Microservices and even Event-Driven
+                Architectures.
               </PictureText>
             </div>
             <Button btnLabel="Download Resume" btnLink="#" />
