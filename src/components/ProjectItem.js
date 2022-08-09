@@ -30,6 +30,13 @@ const ProjectItemStyles = styled.div`
     margin-top: 1rem;
     height: 160px;
   }
+  .projectItem__technologies {
+    font-size: 1.4rem;
+    font-family: 'RobotoMono Regular';
+    margin-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    height: 10px;
+  }
   .projectItem__button {
     margin-top: 2rem;
     font-size: 1.2rem;
@@ -58,6 +65,7 @@ export default function ProjectItem({
   description = 'Project Description',
   githubUrl = null,
   liveDemoUrl = null,
+  technologies = null,
 }) {
   return (
     <ProjectItemStyles>
@@ -69,6 +77,7 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__description">{description}</p>
+        <p className="projectItem__technologies">{technologies}</p>
         {githubUrl === null ? (
           <></>
         ) : (

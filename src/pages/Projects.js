@@ -89,6 +89,7 @@ export default function Projects() {
               img={item.img}
               githubUrl={item.githubUrl}
               liveDemoUrl={item.liveDemoUrl}
+              technologies={item.technologies}
             />
           ))}
         </div>

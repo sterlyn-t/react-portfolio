@@ -16,6 +16,7 @@ const projects = [
     img: ChatAppImg,
     githubUrl: 'https://github.com/sterlyn-t/lets-chat/tree/master/lets-chat',
     liveDemoUrl: 'https://mern-lets-chat.herokuapp.com/',
+    technologies: '#MongoDB #Express #React.js #Node.js #Socket.IO',
   },
   {
     id: uuidv4(),
@@ -25,15 +26,17 @@ const projects = [
     img: PersonalPortfolioImg,
     githubUrl: 'https://github.com/sterlyn-t/react-portfolio',
     liveDemoUrl: 'https://sterlyns-portfolio.netlify.app/',
+    technologies: '#React.js #styled-components #Netlify',
   },
   {
     id: uuidv4(),
     name: 'Crypto Tracker',
     desc:
-      'Created an app which allows the user to track their favorite cryto currencies. It also allows the user to simulate buying and selling these currencies. This app was created using React.js, Material UI, Chart.js and Firebase.',
+      'Created an app which allows the user to track their favorite cryto currencies.',
     img: CoinTrackerImg,
     githubUrl: 'https://github.com/sterlyn-t/crypto-tracker',
     liveDemoUrl: 'https://crypto-tracker-netlify.netlify.app/',
+    technologies: '#React.js #Charts.js #Firebase #Material UI',
   },
   {
     id: uuidv4(),
@@ -42,6 +45,7 @@ const projects = [
       'A clone of the popular Wordle game which allows for continuous play built using React.js and React Hooks.',
     img: WordleImg,
     githubUrl: 'https://github.com/sterlyn-t/infinite-wordle/tree/master',
+    technologies: '#React.js',
   },
   {
     id: uuidv4(),
@@ -51,6 +55,7 @@ const projects = [
     img: AnonynousBlogImg,
     githubUrl: 'test',
     liveDemoUrl: 'https://anonymous-b.herokuapp.com/',
+    technologies: '#MongoDB #Express #React.js #Node.js',
   },
   // {
   //   id: uuidv4(),
@@ -59,22 +64,24 @@ const projects = [
   //     'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
   //   img: ProjectImg,
   // },
-  {
-    id: uuidv4(),
-    name: 'MineSweeper',
-    desc:
-      'Created a MineSweeper clone in C++ using 2D arrays and Object-Oriented Programming principles. The user could select 3 different difficulties which vaired the size of the board and the number of bombs present.',
-    img: MineSweeperImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Movie Search App',
-    desc:
-      'In an attempt to learn about APIs, I created a simple movie search application using the TMDB API. The user is presented with the currently trending movies along with their respective ratings and descriptions.',
-    img: MovieAppImg,
-    githubUrl: 'https://github.com/sterlyn-t/movie-search-app',
-    liveDemoUrl: 'https://sterlyn-t.github.io/movie-search-app/',
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: 'MineSweeper',
+  //   desc:
+  //     'Created a MineSweeper clone in C++ using 2D arrays and Object-Oriented Programming principles. The user could select 3 different difficulties which vaired the size of the board and the number of bombs present.',
+  //   img: MineSweeperImg,
+  //   technologies: '#mongoDb',
+  // },
+  // {
+  //   id: uuidv4(),
+  //   name: 'Movie Search App',
+  //   desc:
+  //     'In an attempt to learn about APIs, I created a simple movie search application using the TMDB API. The user is presented with the currently trending movies along with their respective ratings and descriptions.',
+  //   img: MovieAppImg,
+  //   githubUrl: 'https://github.com/sterlyn-t/movie-search-app',
+  //   liveDemoUrl: 'https://sterlyn-t.github.io/movie-search-app/',
+  //   technologies: '#mongoDb',
+  // },
 ];
 
 export default projects;
