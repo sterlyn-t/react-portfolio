@@ -50,13 +50,13 @@ export default function Footer() {
       <div className="container">
         <div className="icon__container">
           <a href="https://github.com/sterlyn-t?tab=repositories">
-            <AiFillGithub style={{ marginLeft: '10px' }} />
+            <AiFillGithub style={{ paddingLeft: '25px' }} />
           </a>
           <a href="https://www.linkedin.com/in/sterlyn-tang/">
-            <AiFillLinkedin style={{ marginLeft: '10px' }} />
+            <AiFillLinkedin style={{ paddingLeft: '25px' }} />
           </a>
           <a href="mailto:sterlyntang31@gmail.com">
-            <AiOutlineMail style={{ marginLeft: '10px' }} />
+            <AiOutlineMail style={{ paddingLeft: '25px' }} />
           </a>
         </div>
       </div>
