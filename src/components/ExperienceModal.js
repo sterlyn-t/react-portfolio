@@ -4,31 +4,38 @@ import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
 
 const Background = styled.div`
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 1);
-  position: fixed;
+  width: 600px;
+  height: 400px;
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -200px;
 `;
 
 const ModalWrapper = styled.div`
-  width: 800px;
+  width: 600px;
   height: 400px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
-  //background: #fff;
-  //color: #000;
   color: var(--gray-1);
   background: color: var(--deep-dark);
-  outline: solid 3px;
-  display: relative;
+  display: flex;
+  padding: 1rem;
+  border-radius: 12px;
   justify-content: center;
   align-items: center;
-  //grid-template-columns: 1fr 1fr;
-  //position: relative;
+  background: rgba(0, 0, 0, 1);
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  left: 50%;
+  top: 50%;
   z-index: 10;
-  border-radius: 10px;
+  margin-left: -300px;
+  margin-top: -200px;
+  border: 3px solid var(--gray-2);
 `;
 
 const ModalContent = styled.div`
@@ -38,7 +45,7 @@ const ModalContent = styled.div`
   align-items: center;
   line-height: 1.8;
   position: relative;
-  margin-top: 10px;
+  margin-top: -185px;
   color: #141414;
   p {
     margin-bottom: 1rem;
@@ -71,6 +78,7 @@ export default function ExperienceModal({
   setShowModal,
   title,
   moreInfo,
+  techUsed,
 }) {
   const modalRef = useRef();
 
@@ -112,6 +120,7 @@ export default function ExperienceModal({
               <ModalContent>
                 <ModalHeading>{title}</ModalHeading>
                 <br />
+                <p>{techUsed}</p>
                 <p>{moreInfo}</p>
               </ModalContent>
               <CloseModalButton

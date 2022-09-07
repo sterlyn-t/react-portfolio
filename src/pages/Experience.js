@@ -67,6 +67,7 @@ export default function Projects() {
               hasMoreInfo={item.hasMoreInfo}
               moreInfo={item.moreInfo}
               companyUrl={item.companyUrl}
+              techUsed={item.techUsed}
             />
           ))}
         </div>

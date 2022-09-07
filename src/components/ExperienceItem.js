@@ -58,6 +58,7 @@ export default function ProjectItem({
   description = 'Experience Description',
   hasMoreInfo = false,
   moreInfo,
+  techUsed,
   companyUrl,
 }) {
   const [showModal, setShowModal] = useState(false);
@@ -100,6 +101,7 @@ export default function ProjectItem({
               setShowModal={setShowModal}
               title={title}
               moreInfo={moreInfo}
+              techUsed={techUsed}
             />
           </div>
         )}
